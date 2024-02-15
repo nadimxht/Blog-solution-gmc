@@ -1,0 +1,9 @@
+.form{
+    padding: 1rem;
+    margin: 1rem;
+    background-color: rgb(97, 97, 209);
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
