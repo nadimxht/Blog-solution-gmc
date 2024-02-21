@@ -5,10 +5,10 @@ import Post from './Post'
 export default function PostsList() {
     const Posts=useSelector(state=>state)
   return (
-    <div>
+    <div style={{display:"flex" , justifyContent:"center",alignContent:"center"}}>
         {
             Posts.posts.map(e=>(
-                <Post data={e} />
+                <Post key={e.blogId} data={e} />
             ))
         }
     </div>

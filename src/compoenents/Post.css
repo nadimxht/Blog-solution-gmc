@@ -1,0 +1,14 @@
+.postElement{
+    width: 95vw;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(250, 246, 246);
+    padding: 1rem;
+    margin: 1rem;
+}
+.icons{
+    width: 30vw;
+    display: flex;
+    justify-content: space-around;
+}
